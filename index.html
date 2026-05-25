@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Designer UI/UX</title>
+    <link href="apparence.css" rel="stylesheet"/>
+</head>
+<body id="page-body" class="theme-clair">
+
+    <div id="layout">
+        <nav class="nav">
+            <div class="nav-logo">CHAM<br>USSEP</div>
+            <a href="index.html">01. Accueil</a>
+            <a href="presentation.html">02. Présentation</a>
+            <a href="qualites.html">03. Qualités</a>
+            <a href="carriere.html">04. Carrière</a>
+
+            <button class="btn-theme" onclick="toggleTheme()">Inverser Thème</button>
+        </nav>
+
+        <main class="content">
+            <h1>Le Design<br>UI / UX.</h1>
+
+            <p>Bienvenue sur ce site informatif réalisé dans le cadre de la spécialité NSI. L'objectif de ce projet est de présenter un métier clé du numérique : le <strong>Designer d'Interface et d'Expérience Utilisateur (UI/UX)</strong>.</p>
+
+            <p>Ce site a pour but de vous guider à travers les différentes facettes de cette profession, des compétences requises jusqu'aux perspectives de carrière, avec une approche visuelle radicale.</p>
+
+            <h2>Plan du site</h2>
+<section class="navigation-site">
+    <h2>Plan et Navigation du site</h2>
+    
+    <p>Ce site se compose de 4 pages principales :</p>
+    <ul>
+        <li><a href="presentation.html" class="lien-metier">Présentation du Métier (Missions, Formations)</a></li>
+        <li><a href="qualites.html" class="lien-metier">Qualités requises (Compétences, Soft Skills)</a></li>
+        <li><a href="carriere.html" class="lien-metier">Carrière (Rémunération, Évolution, Horaires)</a></li>
+    </ul>
+
+    <div class="schema-conteneur">
+        <p class="schema-titre">Graphique des liaisons inter-pages :</p>
+        <div class="schema-reseau">
+            
+            <div class="schema-box box-principal">
+                <strong>index.html</strong>
+                <span>(Accueil du site)</span>
+            </div>
+            
+            <div class="schema-arborescence">
+                
+                <div class="liaison-page">
+                    <span class="symbole-fleche">&le;&rArr;</span>
+                    <a href="presentation.html" class="schema-box">
+                        <strong>presentation.html</strong>
+                    </a>
+                </div>
+                
+                <div class="liaison-page">
+                    <span class="symbole-fleche">&le;&rArr;</span>
+                    <a href="qualites.html" class="schema-box">
+                        <strong>qualites.html</strong>
+                    </a>
+                </div>
+                
+                <div class="liaison-page">
+                    <span class="symbole-fleche">&le;&rArr;</span>
+                    <a href="carriere.html" class="schema-box">
+                        <strong>carriere.html</strong>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Design UI UX abstrait" class="image-center"/>
+
+            <p id="42">Pour approfondir vos recherches, consultez le site officiel de l'<a href="https://www.onisep.fr" target="_blank" style="color: #e3000f; font-weight: bold;">ONISEP</a>.</p>        </main>
+    </div>
+
+    <script src="interaction.js"></script>
+</body>
+</html>
